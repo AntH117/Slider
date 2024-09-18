@@ -1,0 +1,422 @@
+.OuterBody {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+
+}
+.MainBody1 {
+  height: 110vh;
+  width: 100vw;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.body1 {
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(5, 37, 41, 0.918);
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+.body1Header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  min-width: 100vw;
+}
+
+.HeaderLeft {
+  height: 80%;
+  width: 300px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeaderLeftLeft {
+width: 40%;
+height: 100%;
+}
+
+.HeaderLeftLeft img{
+  width: 110%;
+}
+
+.HeaderLeftRight {
+  width: 47%;
+  height: fit-content;
+  overflow-y: hidden;
+  z-index: 3;
+}
+
+.HeaderLeftRightTop {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  color: rgb(250, 250, 250);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.HeaderLeftRightTop:hover {
+  background-color: rgba(255, 255, 255, 0.205);
+}
+
+.HeaderLeftRightBottom {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.HeaderDropF {
+  margin: 0 auto;
+  color: #46DF7E;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.HeaderDropS {
+  margin: 0 auto;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.HeaderLeftRightBottomS {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(5, 37, 41);
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.HeaderText {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 25px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.HeaderDrop {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  cursor: pointer;
+}
+
+
+.HeaderRight {
+  height: 80%;
+  width: 300px;
+  margin-right: 15%;
+}
+
+.HeaderRight div {
+  width: 80%;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.144);
+  border-radius: 40px;
+  color: rgb(250, 250, 250);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 21px;
+  font-weight: bold;
+}
+.HeaderRight div:hover {
+  background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+.body1Center {
+  height: 300px;
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.body1CText {
+  align-items: center;
+  justify-content: center; 
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(250, 250, 250);
+  line-height: 120%;
+}
+
+.body1CImg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+.body1CImg img{
+  width: 400px;
+}
+
+
+.body1Bottom {
+  width: 110%;
+  height: 450px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  overflow: hidden
+}
+
+.ScrollContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.body1Scroll {
+  height: 90%;
+  width: 300px;
+  background-color: rgb(25, 12, 61);
+  border-radius: 20px;
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+.body1Scroll Img {
+
+}
+
+.body2 {
+  z-index: 2;
+  position: absolute;
+  left:0;
+  top:0;
+  background-color: #46DF7E;
+  height: 110vh;
+  width: 50vw;
+  overflow: hidden;
+}
+
+.body2Center {
+  width: 100vw;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.body2CText {
+  align-items: center;
+  justify-content: center; 
+  font-size: 100px;
+  font-weight: bold;
+  color: rgba(5, 37, 41, 0.918);
+  line-height: 120%;
+}
+
+.body2Scroll {
+  height: 90%;
+  width: 300px;
+  background-color: rgb(75, 137, 156);
+  border-radius: 20px;
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+.body2Scroll img {
+}
+
+.HeaderDownF {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:#46DF7E;
+}
+
+.HeaderDown {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:rgba(5, 37, 41, 0.918)
+}
+
+.body1Scroll:nth-child(8) {
+background-color:#C8A2C8;
+}
+
+.body1Scroll:nth-child(1) {
+background-color: #FF82A9;
+}
+
+.body1Scroll:nth-child(2) {
+background-color: #6D9197;
+}
+
+.body1Scroll:nth-child(3) {
+background-color: #77DD77;
+}
+
+.body1Scroll:nth-child(4) {
+background-color: #9370DB;
+}
+
+.body1Scroll:nth-child(5) {
+background-color: #F5DEB3;
+}
+
+.body1Scroll:nth-child(6) {
+background-color: #FF8C00;
+}
+
+.body1Scroll:nth-child(7) {
+background-color:#40E0D0;
+}
+
+.body2Scroll:nth-child(8) {
+background-color: #E6E6FA;
+}
+
+.body2Scroll:nth-child(1) {
+background-color: #FFD1DC;
+}
+
+.body2Scroll:nth-child(2) {
+background-color: #AEC6CF;
+}
+
+.body2Scroll:nth-child(3) {
+background-color: #C3FDB8;
+}
+
+.body2Scroll:nth-child(4) {
+background-color: #B19CD9;
+}
+
+.body2Scroll:nth-child(5) {
+background-color: #FFFFE0;
+}
+
+.body2Scroll:nth-child(6) {
+background-color: #FFB347;
+}
+
+.body2Scroll:nth-child(7) {
+background-color: #AFEEEE;
+}
+
+
+.body-two__scroll {
+
+}
+
+.ScrollImg {
+  
+}
+
+.MainBody2 {
+  width: 100vw;
+  height: 110vh;
+  background-color: #36333b;
+  position:relative;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Body2Text {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 25%;
+  top: 20%;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Body2Text img {
+  position: absolute;
+  width: 500px;
+  right: 120px;
+  bottom: -20px;
+}
+
+.Body2Inner {
+  width: 100vw;
+  height: 0px;
+  position: absolute;
+  background-color:  #d98be9;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.Body2InnerShell {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 110vh;
+}
+.Body2InnerText {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 25%;
+  top: 20%;
+  font-size: 100px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Body2InnerText img {
+  position: absolute;
+  width: 500px;
+  right: 120px;
+  bottom: -20px;
+}

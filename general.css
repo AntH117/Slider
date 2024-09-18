@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans';
+  overflow-x: hidden
+}
+
+html {
+  scroll-snap-type: y proximity;
+}
